@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yashwanth Beats</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="player">
+
+    <img src="images/yashwanth-beats-cover.png" class="cover">
+    <h1>Yashwanth Beats</h1>
+    <p class="tagline">Your Personal Music Experience</p>
+
+    <h3 id="song-title">Salaar Action BGM</h3>
+
+    <div class="progress-container">
+        <input type="range" id="progress" value="0" min="0" max="100">
+    </div>
+
+    <div class="time">
+        <span id="current-time">0:00</span>
+        <span id="duration">0:00</span>
+    </div>
+
+    <audio id="audio"></audio>
+
+    <div class="controls">
+        <button onclick="prevSong()">⏮</button>
+        <button class="play-btn" onclick="playPause()">▶</button>
+        <button onclick="nextSong()">⏭</button>
+    </div>
+
+    <button class="loop-btn" onclick="toggleLoop()">🔁 Loop Mode</button>
+
+    <p class="developer">
+    © 2026 Pakala Yashwanth | CodeAlpha Internship Project
+</p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
