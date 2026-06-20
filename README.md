@@ -1,3 +1,6 @@
+## Preview
+
+![Yashwanth Beats Music Player](images/music-player.png)
 # 🎵 Yashwanth Beats - Music Player
 
 A modern music player web application developed using HTML, CSS, and JavaScript as part of the CodeAlpha Frontend Development Internship.
